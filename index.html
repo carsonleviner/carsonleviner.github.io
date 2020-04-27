@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Design Contract</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#nav_menu").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <logo>
+                <i class="fas fa-tshirt" style="font-size: 40px;"> Redeemed Apparel</i></logo>
+            <div class=menubar>
+                <nav id="mobilemenu"></nav>
+                <nav id="nav_menu">
+                    <ul>
+                        <li class="buttons">Home</li>
+                        <li class="buttons">Men</li>
+                        <li class="buttons">Women</li>
+                        <li class="buttons">Click For<ul class="drop-down list">
+                            <li><a href="story.html">Our Story</a></li>
+                        </ul>
+                    </ul>
+            </div>
+        </div>
+        <div class="aside"> <img src="sunset.jpg" alt="Picture of Sunset"></div>
+        <div class="main"> Men's clothing comes in various fits including athletic and casual fits.</div>
+        <div class="aside2">Women's clothing comes in various fits including athletic and casual fits. We also have
+            jewelry designed to complement our clothing. </div>
+        <div class="footer">To return items contact us at: 1(910)123-4567, firstnamelastname@email.com, or come to our
+            store at 123Store rd Hamlet, NC
+        </div>
+    </div>
+</body>
